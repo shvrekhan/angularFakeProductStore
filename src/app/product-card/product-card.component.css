@@ -1,0 +1,32 @@
+body {
+  background: #eee;
+}
+
+.Card-custom {
+  width: 30%;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.Card-custom:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.02);
+}
+
+.custom-card-image {
+  object-fit: contain;
+  height: 40vh;
+  width: 100%;
+}
+
+.custom-card-image:hover {
+  transform: scale(1.2);
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.borde {
+  border: 1px solid red;
+}

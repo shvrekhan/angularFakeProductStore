@@ -1,0 +1,30 @@
+<div class="d-flex flex-wrap">
+  <div
+    class="card p-3 bg-white Card-custom mb-3 d-flex flex-column justify-content-evenly"
+    *ngFor="let product of productList"
+  >
+    <div class="about-product text-center mt-2">
+      <img class="custom-card-image p-4" src="{{ product.image }}" />
+      <div>
+        <h5>{{ product.title }}</h5>
+      </div>
+    </div>
+    <div class="content">
+      <p>{{ product.description |slice:0:145}}...</p>
+    </div>
+    <div class="stats mt-2 align-items--baseline">
+      <div
+        class="d-flex justify-content-between align-items-end p-price bolder"
+      >
+        <span>Rating</span>
+        <span>{{ product.rating.rate }}({{ product.rating.count }})</span>
+      </div>
+      <div
+        class="d-flex justify-content-between align-items-end p-price bolder"
+      >
+        <span>Price</span>
+        <span>${{ product.price }}</span>
+      </div>
+    </div>
+  </div>
+</div>
