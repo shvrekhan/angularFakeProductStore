@@ -30,3 +30,14 @@ body {
 .borde {
   border: 1px solid red;
 }
+
+.add-to-cart {
+  background-color: rgb(250, 159, 29);
+  border: none;
+  padding: 1.2rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+.add-to-cart:hover{
+  transform: scale(1.05);
+}
