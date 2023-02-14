@@ -1,0 +1,26 @@
+.product-image {
+  max-width: 40%;
+}
+.product-image > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 80vh;
+}
+
+.product-info {
+  flex-basis: 50%;
+}
+
+.bttn {
+  border: none;
+  color: white;
+  padding: 1.5rem;
+}
+
+.add {
+  background-color: rgb(250, 159, 29);
+}
+
+.buy {
+  background-color: rgb(244, 99, 26);
+}
